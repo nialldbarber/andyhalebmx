@@ -1,4 +1,6 @@
 import styled from 'styled-components';
+import Parallax from 'react-rellax';
+import Underline from './styles/Underline';
 
 const Content = styled.div`
 	max-width: 750px;
@@ -16,9 +18,6 @@ const Content = styled.div`
 const Line = styled.div`
 	width: 200px;
 	height: 200px;
-	position: absolute;
-	bottom: 10%;
-	left: 10%;
 	margin: -150px 0 0 50px;
 	&:before {
 		display: block;
@@ -37,7 +36,11 @@ const Line = styled.div`
 	}
 `;
 
-const Underline = styled.span`box-shadow: ${(props) => props.theme.bsi};`;
+const LineWrap = styled.div`
+	position: absolute;
+	bottom: -20rem;
+	left: 10%;
+`;
 
 const Shows = () => {
 	return (
@@ -50,7 +53,11 @@ const Shows = () => {
 					bringing along an extra rider for <Underline>synchronised spinning tricks!</Underline>
 				</p>
 			</Content>
-			<Line />
+			<LineWrap>
+				<Parallax speed={1.3}>
+					<Line />
+				</Parallax>
+			</LineWrap>
 		</section>
 	);
 };

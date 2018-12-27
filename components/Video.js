@@ -16,22 +16,11 @@ const VideoPlayer = styled.video`
 const VideoSection = styled.section`
 	position: relative;
 	overflow: hidden;
-	&:after {
-		content: '';
-		position: absolute;
-		background: rgba(0, 0, 0, .4);
-		top: 0;
-		left: 0;
-		bottom: 0;
-		right: 0;
-	}
 `;
 
 const Video = () => {
 	return (
 		<VideoSection>
-			<h1>Andy Hale</h1>
-			<h2>BMX</h2>
 			<VideoPlayer autoPlay muted loop>
 				<source src="../static/cover-video.mp4" type="video/mp4" />
 			</VideoPlayer>

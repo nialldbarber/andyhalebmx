@@ -17,21 +17,17 @@ Router.onRouteChangeError = () => {
 const NavBar = styled.div`
 	position: fixed;
 	background: #fff;
-	height: 50px;
+	height: 60px;
 	z-index: 999;
 	width: 100%;
 	padding-top: 5px;
+	box-shadow: ${(props) => props.theme.bs};
 `;
 
 const Header = () => {
 	return (
 		<div>
 			<NavBar>
-				<div>
-					<Link href="/">
-						<a />
-					</Link>
-				</div>
 				<Nav />
 			</NavBar>
 		</div>

@@ -8,7 +8,17 @@ const NavContainer = styled.div`
 		width: 100vw;
 		display: flex;
 		justify-content: space-evenly;
+		a {
+			padding: .6rem 0;
+		}
 	}
+`;
+
+const HeaderLogo = styled.img`
+	width: 120px;
+	height: auto;
+	align-self: center;
+	margin-top: -12px;
 `;
 
 export default class Nav extends Component {
@@ -22,8 +32,11 @@ export default class Nav extends Component {
 					<Link activeClassName="active" href="/about">
 						<a>About</a>
 					</Link>
-					<Link activeClassName="active" href="/projects">
-						<a>Projects</a>
+					<Link activeClassName="active" href="/">
+						<HeaderLogo src="../static/main-logo8.png" />
+					</Link>
+					<Link activeClassName="active" href="/gallery">
+						<a>Gallery</a>
 					</Link>
 					<Link activeClassName="active" href="/contact">
 						<a>Contact</a>

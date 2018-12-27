@@ -12,21 +12,15 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! styled-components */ "./node_modules/styled-components/dist/styled-components.browser.esm.js");
+/* harmony import */ var react_rellax__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react-rellax */ "./node_modules/react-rellax/lib/index.js");
+/* harmony import */ var react_rellax__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(react_rellax__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var _styles_Line__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./styles/Line */ "./components/styles/Line.js");
+/* harmony import */ var _styles_Underline__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./styles/Underline */ "./components/styles/Underline.js");
 var _jsxFileName = "/Users/niallbarber/htdocs/andyhalebmx/components/Bio.js";
 
 
-function _templateObject3() {
-  var data = _taggedTemplateLiteral(["box-shadow: ", ";"]);
-
-  _templateObject3 = function _templateObject3() {
-    return data;
-  };
-
-  return data;
-}
-
 function _templateObject2() {
-  var data = _taggedTemplateLiteral(["\n\twidth: 200px;\n\theight: 200px;\n\tposition: absolute;\n\ttop: 30%;\n\tright: 12%;\n\tmargin: -150px 0 0 50px;\n\t&:before {\n\t\tdisplay: block;\n\t\tcontent: '';\n\t\tposition: absolute;\n\t\twidth: 100%;\n\t\theight: 2px;\n\t\ttransform-origin: center center;\n\t\ttransform: translate(-50%, -50%) rotate(45deg);\n\t\tbackground: ", ";\n\t\tleft: 50%;\n\t\ttop: 50%;\n\t\ttransition: all 1000ms cubic-bezier(0.19, 1, 0.22, 1);\n\t\ttransition-delay: 0.4s;\n\t\topacity: 1;\n\t}\n"]);
+  var data = _taggedTemplateLiteral(["\n\tposition: absolute;\n\ttop: 35rem;\n\tright: 12%;\n"]);
 
   _templateObject2 = function _templateObject2() {
     return data;
@@ -48,82 +42,93 @@ function _templateObject() {
 function _taggedTemplateLiteral(strings, raw) { if (!raw) { raw = strings.slice(0); } return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } })); }
 
 
+
+
+
 var Content = styled_components__WEBPACK_IMPORTED_MODULE_1__["default"].div(_templateObject());
-var Line = styled_components__WEBPACK_IMPORTED_MODULE_1__["default"].div(_templateObject2(), function (props) {
-  return props.theme.black;
-});
-var Underline = styled_components__WEBPACK_IMPORTED_MODULE_1__["default"].span(_templateObject3(), function (props) {
-  return props.theme.bsi;
-});
+var LineWrap = styled_components__WEBPACK_IMPORTED_MODULE_1__["default"].div(_templateObject2());
 
 var Bio = function Bio() {
   return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("section", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 44
+      lineNumber: 27
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(Content, {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 45
+      lineNumber: 28
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 46
+      lineNumber: 29
     },
     __self: this
-  }, "My name is ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(Underline, {
+  }, "My name is ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_styles_Underline__WEBPACK_IMPORTED_MODULE_4__["default"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 47
+      lineNumber: 30
     },
     __self: this
-  }, "Andy Hale"), " and I am a professional", ' ', react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(Underline, {
+  }, "Andy Hale"), " and I am a professional", ' ', react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_styles_Underline__WEBPACK_IMPORTED_MODULE_4__["default"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 48
+      lineNumber: 31
     },
     __self: this
-  }, "BMX flatland rider"), ". I compete around the UK and also perform at a variety of different types of events. From ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(Underline, {
+  }, "BMX flatland rider"), ". I compete around the UK and also perform at a variety of different types of events. From ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_styles_Underline__WEBPACK_IMPORTED_MODULE_4__["default"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 49
+      lineNumber: 32
     },
     __self: this
-  }, "cruise ships"), " to", ' ', react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(Underline, {
+  }, "cruise ships"), " to", ' ', react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_styles_Underline__WEBPACK_IMPORTED_MODULE_4__["default"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 50
+      lineNumber: 33
     },
     __self: this
-  }, "schools"), ", ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(Underline, {
+  }, "schools"), ", ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_styles_Underline__WEBPACK_IMPORTED_MODULE_4__["default"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 50
+      lineNumber: 33
     },
     __self: this
-  }, "films"), " to ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(Underline, {
+  }, "films"), " to ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_styles_Underline__WEBPACK_IMPORTED_MODULE_4__["default"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 50
+      lineNumber: 33
     },
     __self: this
-  }, "trade events"), ", I have years of experience performing in shows. Whether you would like my skills as part of a stage show, or a school workshop teaching young students some basic BMX techniques,", ' ', react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(Underline, {
+  }, "trade events"), ", I have years of experience performing in shows. Whether you would like my skills as part of a stage show, or a school workshop teaching young students some basic BMX techniques,", ' ', react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_styles_Underline__WEBPACK_IMPORTED_MODULE_4__["default"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 53
+      lineNumber: 36
     },
     __self: this
-  }, "I can do it for you!"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(Line, {
+  }, "I can do it for you!"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(LineWrap, {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 56
+      lineNumber: 39
     },
     __self: this
-  }));
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_rellax__WEBPACK_IMPORTED_MODULE_2___default.a, {
+    speed: 1.3,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 40
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_styles_Line__WEBPACK_IMPORTED_MODULE_3__["default"], {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 41
+    },
+    __self: this
+  }))));
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (Bio);
@@ -484,11 +489,14 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! styled-components */ "./node_modules/styled-components/dist/styled-components.browser.esm.js");
+/* harmony import */ var react_rellax__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react-rellax */ "./node_modules/react-rellax/lib/index.js");
+/* harmony import */ var react_rellax__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(react_rellax__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var _styles_Underline__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./styles/Underline */ "./components/styles/Underline.js");
 var _jsxFileName = "/Users/niallbarber/htdocs/andyhalebmx/components/Shows.js";
 
 
 function _templateObject3() {
-  var data = _taggedTemplateLiteral(["box-shadow: ", ";"]);
+  var data = _taggedTemplateLiteral(["\n\tposition: absolute;\n\tbottom: -20rem;\n\tleft: 10%;\n"]);
 
   _templateObject3 = function _templateObject3() {
     return data;
@@ -498,7 +506,7 @@ function _templateObject3() {
 }
 
 function _templateObject2() {
-  var data = _taggedTemplateLiteral(["\n\twidth: 200px;\n\theight: 200px;\n\tposition: absolute;\n\tbottom: 10%;\n\tleft: 10%;\n\tmargin: -150px 0 0 50px;\n\t&:before {\n\t\tdisplay: block;\n\t\tcontent: '';\n\t\tposition: absolute;\n\t\twidth: 100%;\n\t\theight: 2px;\n\t\ttransform-origin: center center;\n\t\ttransform: translate(-50%, -50%) rotate(220deg);\n\t\tbackground: ", ";\n\t\tleft: 50%;\n\t\ttop: 50%;\n\t\ttransition: all 1000ms cubic-bezier(0.19, 1, 0.22, 1);\n\t\ttransition-delay: 0.4s;\n\t\topacity: 1;\n\t}\n"]);
+  var data = _taggedTemplateLiteral(["\n\twidth: 200px;\n\theight: 200px;\n\tmargin: -150px 0 0 50px;\n\t&:before {\n\t\tdisplay: block;\n\t\tcontent: '';\n\t\tposition: absolute;\n\t\twidth: 100%;\n\t\theight: 2px;\n\t\ttransform-origin: center center;\n\t\ttransform: translate(-50%, -50%) rotate(220deg);\n\t\tbackground: ", ";\n\t\tleft: 50%;\n\t\ttop: 50%;\n\t\ttransition: all 1000ms cubic-bezier(0.19, 1, 0.22, 1);\n\t\ttransition-delay: 0.4s;\n\t\topacity: 1;\n\t}\n"]);
 
   _templateObject2 = function _templateObject2() {
     return data;
@@ -520,64 +528,77 @@ function _templateObject() {
 function _taggedTemplateLiteral(strings, raw) { if (!raw) { raw = strings.slice(0); } return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } })); }
 
 
+
+
 var Content = styled_components__WEBPACK_IMPORTED_MODULE_1__["default"].div(_templateObject());
 var Line = styled_components__WEBPACK_IMPORTED_MODULE_1__["default"].div(_templateObject2(), function (props) {
   return props.theme.black;
 });
-var Underline = styled_components__WEBPACK_IMPORTED_MODULE_1__["default"].span(_templateObject3(), function (props) {
-  return props.theme.bsi;
-});
+var LineWrap = styled_components__WEBPACK_IMPORTED_MODULE_1__["default"].div(_templateObject3());
 
 var Shows = function Shows() {
   return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("section", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 44
+      lineNumber: 47
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(Content, {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 45
+      lineNumber: 48
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 46
-    },
-    __self: this
-  }, "My shows can add a great ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(Underline, {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 47
-    },
-    __self: this
-  }, "showpiece"), " to your event. Kids love a BMX show whether it is at their school, in term time or as part of a ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(Underline, {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 48
-    },
-    __self: this
-  }, "local festival"), ". They can be tailored for your ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(Underline, {
-    __source: {
-      fileName: _jsxFileName,
       lineNumber: 49
     },
     __self: this
-  }, "specific needs"), " such as including workshops, or bringing along an extra rider for ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(Underline, {
+  }, "My shows can add a great ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_styles_Underline__WEBPACK_IMPORTED_MODULE_3__["default"], {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 50
     },
     __self: this
-  }, "synchronised spinning tricks!"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(Line, {
+  }, "showpiece"), " to your event. Kids love a BMX show whether it is at their school, in term time or as part of a ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_styles_Underline__WEBPACK_IMPORTED_MODULE_3__["default"], {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 51
+    },
+    __self: this
+  }, "local festival"), ". They can be tailored for your ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_styles_Underline__WEBPACK_IMPORTED_MODULE_3__["default"], {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 52
+    },
+    __self: this
+  }, "specific needs"), " such as including workshops, or bringing along an extra rider for ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_styles_Underline__WEBPACK_IMPORTED_MODULE_3__["default"], {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 53
     },
     __self: this
-  }));
+  }, "synchronised spinning tricks!"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(LineWrap, {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 56
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_rellax__WEBPACK_IMPORTED_MODULE_2___default.a, {
+    speed: 1.3,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 57
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(Line, {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 58
+    },
+    __self: this
+  }))));
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (Shows);
@@ -600,7 +621,7 @@ var _jsxFileName = "/Users/niallbarber/htdocs/andyhalebmx/components/Video.js";
 
 
 function _templateObject2() {
-  var data = _taggedTemplateLiteral(["\n\tposition: relative;\n\toverflow: hidden;\n\t&:after {\n\t\tcontent: '';\n\t\tposition: absolute;\n\t\tbackground: rgba(0, 0, 0, .4);\n\t\ttop: 0;\n\t\tleft: 0;\n\t\tbottom: 0;\n\t\tright: 0;\n\t}\n"]);
+  var data = _taggedTemplateLiteral(["\n\tposition: relative;\n\toverflow: hidden;\n"]);
 
   _templateObject2 = function _templateObject2() {
     return data;
@@ -629,28 +650,16 @@ var Video = function Video() {
   return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(VideoSection, {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 32
+      lineNumber: 23
     },
     __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 33
-    },
-    __self: this
-  }, "Andy Hale"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 34
-    },
-    __self: this
-  }, "BMX"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(VideoPlayer, {
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(VideoPlayer, {
     autoPlay: true,
     muted: true,
     loop: true,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 35
+      lineNumber: 24
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("source", {
@@ -658,13 +667,73 @@ var Video = function Video() {
     type: "video/mp4",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 36
+      lineNumber: 25
     },
     __self: this
   })));
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (Video);
+
+/***/ }),
+
+/***/ "./components/styles/Line.js":
+/*!***********************************!*\
+  !*** ./components/styles/Line.js ***!
+  \***********************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! styled-components */ "./node_modules/styled-components/dist/styled-components.browser.esm.js");
+function _templateObject() {
+  var data = _taggedTemplateLiteral(["\n\twidth: 200px;\n\theight: 200px;\n\tmargin: -150px 0 0 50px;\n\t&:before {\n\t\tdisplay: block;\n\t\tcontent: '';\n\t\tposition: absolute;\n\t\twidth: 100%;\n\t\theight: 2px;\n\t\ttransform-origin: center center;\n\t\ttransform: translate(-50%, -50%) rotate(45deg);\n\t\tbackground: ", ";\n\t\tleft: 50%;\n\t\ttop: 50%;\n\t\ttransition: all 1000ms cubic-bezier(0.19, 1, 0.22, 1);\n\t\ttransition-delay: 0.4s;\n\t\topacity: 1;\n\t}\n"]);
+
+  _templateObject = function _templateObject() {
+    return data;
+  };
+
+  return data;
+}
+
+function _taggedTemplateLiteral(strings, raw) { if (!raw) { raw = strings.slice(0); } return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } })); }
+
+
+var Line = styled_components__WEBPACK_IMPORTED_MODULE_0__["default"].div(_templateObject(), function (props) {
+  return props.theme.black;
+});
+/* harmony default export */ __webpack_exports__["default"] = (Line);
+
+/***/ }),
+
+/***/ "./components/styles/Underline.js":
+/*!****************************************!*\
+  !*** ./components/styles/Underline.js ***!
+  \****************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! styled-components */ "./node_modules/styled-components/dist/styled-components.browser.esm.js");
+function _templateObject() {
+  var data = _taggedTemplateLiteral(["box-shadow: ", ";"]);
+
+  _templateObject = function _templateObject() {
+    return data;
+  };
+
+  return data;
+}
+
+function _taggedTemplateLiteral(strings, raw) { if (!raw) { raw = strings.slice(0); } return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } })); }
+
+
+var Underline = styled_components__WEBPACK_IMPORTED_MODULE_0__["default"].span(_templateObject(), function (props) {
+  return props.theme.bsi;
+});
+/* harmony default export */ __webpack_exports__["default"] = (Underline);
 
 /***/ }),
 
@@ -2707,6 +2776,142 @@ if (false) {} else {
   module.exports = __webpack_require__(/*! ./cjs/react-is.development.js */ "./node_modules/react-is/cjs/react-is.development.js");
 }
 
+
+/***/ }),
+
+/***/ "./node_modules/react-rellax/lib/index.js":
+/*!************************************************!*\
+  !*** ./node_modules/react-rellax/lib/index.js ***!
+  \************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = void 0;
+
+var _react = _interopRequireWildcard(__webpack_require__(/*! react */ "./node_modules/react/index.js"));
+
+var _propTypes = _interopRequireDefault(__webpack_require__(/*! prop-types */ "./node_modules/prop-types/index.js"));
+
+var _rellax = _interopRequireDefault(__webpack_require__(/*! rellax */ "./node_modules/rellax/rellax.js"));
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+function _interopRequireWildcard(obj) { if (obj && obj.__esModule) { return obj; } else { var newObj = {}; if (obj != null) { for (var key in obj) { if (Object.prototype.hasOwnProperty.call(obj, key)) { var desc = Object.defineProperty && Object.getOwnPropertyDescriptor ? Object.getOwnPropertyDescriptor(obj, key) : {}; if (desc.get || desc.set) { Object.defineProperty(newObj, key, desc); } else { newObj[key] = obj[key]; } } } } newObj.default = obj; return newObj; } }
+
+function _typeof(obj) { if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof(obj); }
+
+function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
+
+function _objectWithoutProperties(source, excluded) { if (source == null) return {}; var target = {}; var sourceKeys = Object.keys(source); var key, i; for (i = 0; i < sourceKeys.length; i++) { key = sourceKeys[i]; if (excluded.indexOf(key) >= 0) continue; target[key] = source[key]; } if (Object.getOwnPropertySymbols) { var sourceSymbolKeys = Object.getOwnPropertySymbols(source); for (i = 0; i < sourceSymbolKeys.length; i++) { key = sourceSymbolKeys[i]; if (excluded.indexOf(key) >= 0) continue; if (!Object.prototype.propertyIsEnumerable.call(source, key)) continue; target[key] = source[key]; } } return target; }
+
+function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function"); } _setPrototypeOf(subClass.prototype, superClass && superClass.prototype); if (superClass) _setPrototypeOf(subClass, superClass); }
+
+function _setPrototypeOf(o, p) { _setPrototypeOf = Object.setPrototypeOf || function _setPrototypeOf(o, p) { o.__proto__ = p; return o; }; return _setPrototypeOf(o, p); }
+
+function _defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } }
+
+function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _defineProperties(Constructor.prototype, protoProps); if (staticProps) _defineProperties(Constructor, staticProps); return Constructor; }
+
+function _possibleConstructorReturn(self, call) { if (call && (_typeof(call) === "object" || typeof call === "function")) { return call; } return _assertThisInitialized(self); }
+
+function _assertThisInitialized(self) { if (self === void 0) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return self; }
+
+function _getPrototypeOf(o) { _getPrototypeOf = Object.getPrototypeOf || function _getPrototypeOf(o) { return o.__proto__; }; return _getPrototypeOf(o); }
+
+var Parallax =
+/*#__PURE__*/
+function (_PureComponent) {
+  function Parallax() {
+    _classCallCheck(this, Parallax);
+
+    return _possibleConstructorReturn(this, _getPrototypeOf(Parallax).apply(this, arguments));
+  }
+
+  _createClass(Parallax, [{
+    key: "componentDidMount",
+    value: function componentDidMount() {
+      if (this.el) {
+        var _this$props = this.props,
+            centered = _this$props.centered,
+            horizontal = _this$props.horizontal,
+            onMove = _this$props.onMove;
+        var config = {};
+
+        if (centered) {
+          config.centered = true;
+        }
+
+        if (horizontal) {
+          config.horizontal = true;
+        }
+
+        if (typeof onMove === 'function') {
+          config.callback = onMove.bind(this);
+        }
+
+        this.rellax = new _rellax.default(this.el, config);
+      }
+    }
+  }, {
+    key: "componentWillUnmount",
+    value: function componentWillUnmount() {
+      if (this.rellax) {
+        this.rellax.destroy();
+      }
+    }
+  }, {
+    key: "render",
+    value: function render() {
+      var _this = this;
+
+      var _this$props2 = this.props,
+          as = _this$props2.as,
+          centered = _this$props2.centered,
+          horizontal = _this$props2.horizontal,
+          onMove = _this$props2.onMove,
+          percentage = _this$props2.percentage,
+          speed = _this$props2.speed,
+          zIndex = _this$props2.zIndex,
+          props = _objectWithoutProperties(_this$props2, ["as", "centered", "horizontal", "onMove", "percentage", "speed", "zIndex"]);
+
+      var Tag = as;
+      return _react.default.createElement(Tag, _extends({
+        ref: function ref(el) {
+          _this.el = el;
+        },
+        "data-rellax-percentage": percentage,
+        "data-rellax-speed": speed,
+        "data-rellax-zindex": zIndex
+      }, props));
+    }
+  }]);
+
+  _inherits(Parallax, _PureComponent);
+
+  return Parallax;
+}(_react.PureComponent);
+
+exports.default = Parallax;
+Parallax.propTypes = {
+  as: _propTypes.default.string,
+  centered: _propTypes.default.bool,
+  horizontal: _propTypes.default.bool,
+  onMove: _propTypes.default.func,
+  percentage: _propTypes.default.number,
+  speed: _propTypes.default.number,
+  zIndex: _propTypes.default.number
+};
+Parallax.defaultProps = {
+  as: 'div'
+};
 
 /***/ }),
 
@@ -5101,6 +5306,340 @@ var canUseDOM = exports.canUseDOM = function canUseDOM() {
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = (__webpack_require__(/*! dll-reference dll_831a3634f66cb1dada0c */ "dll-reference dll_831a3634f66cb1dada0c"))("./node_modules/react/index.js");
+
+/***/ }),
+
+/***/ "./node_modules/rellax/rellax.js":
+/*!***************************************!*\
+  !*** ./node_modules/rellax/rellax.js ***!
+  \***************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+var __WEBPACK_AMD_DEFINE_FACTORY__, __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;
+// ------------------------------------------
+// Rellax.js
+// Buttery smooth parallax library
+// Copyright (c) 2016 Moe Amaya (@moeamaya)
+// MIT license
+//
+// Thanks to Paraxify.js and Jaime Cabllero
+// for parallax concepts
+// ------------------------------------------
+
+(function (root, factory) {
+  if (true) {
+    // AMD. Register as an anonymous module.
+    !(__WEBPACK_AMD_DEFINE_ARRAY__ = [], __WEBPACK_AMD_DEFINE_FACTORY__ = (factory),
+				__WEBPACK_AMD_DEFINE_RESULT__ = (typeof __WEBPACK_AMD_DEFINE_FACTORY__ === 'function' ?
+				(__WEBPACK_AMD_DEFINE_FACTORY__.apply(exports, __WEBPACK_AMD_DEFINE_ARRAY__)) : __WEBPACK_AMD_DEFINE_FACTORY__),
+				__WEBPACK_AMD_DEFINE_RESULT__ !== undefined && (module.exports = __WEBPACK_AMD_DEFINE_RESULT__));
+  } else {}
+}(this, function () {
+  var Rellax = function(el, options){
+    "use strict";
+
+    var self = Object.create(Rellax.prototype);
+
+    var posY = 0;
+    var screenY = 0;
+    var posX = 0;
+    var screenX = 0;
+    var blocks = [];
+    var pause = true;
+
+    // check what requestAnimationFrame to use, and if
+    // it's not supported, use the onscroll event
+    var loop = window.requestAnimationFrame ||
+      window.webkitRequestAnimationFrame ||
+      window.mozRequestAnimationFrame ||
+      window.msRequestAnimationFrame ||
+      window.oRequestAnimationFrame ||
+      function(callback){ return setTimeout(callback, 1000 / 60); };
+
+    // store the id for later use
+    var loopId = null;
+
+    // check what cancelAnimation method to use
+    var clearLoop = window.cancelAnimationFrame || window.mozCancelAnimationFrame || clearTimeout;
+
+    // check which transform property to use
+    var transformProp = window.transformProp || (function(){
+        var testEl = document.createElement('div');
+        if (testEl.style.transform === null) {
+          var vendors = ['Webkit', 'Moz', 'ms'];
+          for (var vendor in vendors) {
+            if (testEl.style[ vendors[vendor] + 'Transform' ] !== undefined) {
+              return vendors[vendor] + 'Transform';
+            }
+          }
+        }
+        return 'transform';
+      })();
+
+    // Default Settings
+    self.options = {
+      speed: -2,
+      center: false,
+      wrapper: null,
+      relativeToWrapper: false,
+      round: true,
+      vertical: true,
+      horizontal: false,
+      callback: function() {},
+    };
+
+    // User defined options (might have more in the future)
+    if (options){
+      Object.keys(options).forEach(function(key){
+        self.options[key] = options[key];
+      });
+    }
+
+    // By default, rellax class
+    if (!el) {
+      el = '.rellax';
+    }
+
+    // check if el is a className or a node
+    var elements = typeof el === 'string' ? document.querySelectorAll(el) : [el];
+
+    // Now query selector
+    if (elements.length > 0) {
+      self.elems = elements;
+    }
+
+    // The elements don't exist
+    else {
+      throw new Error("The elements you're trying to select don't exist.");
+    }
+
+    // Has a wrapper and it exists
+    if (self.options.wrapper) {
+      if (!self.options.wrapper.nodeType) {
+        var wrapper = document.querySelector(self.options.wrapper);
+
+        if (wrapper) {
+          self.options.wrapper = wrapper;
+        } else {
+          throw new Error("The wrapper you're trying to use don't exist.");
+        }
+      }
+    }
+
+
+    // Get and cache initial position of all elements
+    var cacheBlocks = function() {
+      for (var i = 0; i < self.elems.length; i++){
+        var block = createBlock(self.elems[i]);
+        blocks.push(block);
+      }
+    };
+
+
+    // Let's kick this script off
+    // Build array for cached element values
+    var init = function() {
+      for (var i = 0; i < blocks.length; i++){
+        self.elems[i].style.cssText = blocks[i].style;
+      }
+
+      blocks = [];
+
+      screenY = window.innerHeight;
+      screenX = window.innerWidth;
+      setPosition();
+
+      cacheBlocks();
+
+      // If paused, unpause and set listener for window resizing events
+      if (pause) {
+        window.addEventListener('resize', init);
+        pause = false;
+      }
+      animate();
+    };
+
+    // We want to cache the parallax blocks'
+    // values: base, top, height, speed
+    // el: is dom object, return: el cache values
+    var createBlock = function(el) {
+      var dataPercentage = el.getAttribute( 'data-rellax-percentage' );
+      var dataSpeed = el.getAttribute( 'data-rellax-speed' );
+      var dataZindex = el.getAttribute( 'data-rellax-zindex' ) || 0;
+
+      // initializing at scrollY = 0 (top of browser), scrollX = 0 (left of browser)
+      // ensures elements are positioned based on HTML layout.
+      //
+      // If the element has the percentage attribute, the posY and posX needs to be
+      // the current scroll position's value, so that the elements are still positioned based on HTML layout
+      var wrapperPosY = self.options.wrapper ? self.options.wrapper.scrollTop : (window.pageYOffset || document.documentElement.scrollTop || document.body.scrollTop);
+      // If the option relativeToWrapper is true, use the wrappers offset to top, subtracted from the current page scroll.
+      if (self.options.relativeToWrapper) {
+        var scrollPosY = (window.pageYOffset || document.documentElement.scrollTop || document.body.scrollTop);
+        wrapperPosY = scrollPosY - self.options.wrapper.offsetTop;
+      }
+      var posY = self.options.vertical ? ( dataPercentage || self.options.center ? wrapperPosY : 0 ) : 0;
+      var posX = self.options.horizontal ? ( dataPercentage || self.options.center ? (window.pageXOffset || document.documentElement.scrollLeft || document.body.scrollLeft) : 0 ) : 0;
+
+      var blockTop = posY + el.getBoundingClientRect().top;
+      var blockHeight = el.clientHeight || el.offsetHeight || el.scrollHeight;
+
+      var blockLeft = posX + el.getBoundingClientRect().left;
+      var blockWidth = el.clientWidth || el.offsetWidth || el.scrollWidth;
+
+      // apparently parallax equation everyone uses
+      var percentageY = dataPercentage ? dataPercentage : (posY - blockTop + screenY) / (blockHeight + screenY);
+      var percentageX = dataPercentage ? dataPercentage : (posX - blockLeft + screenX) / (blockWidth + screenX);
+      if(self.options.center){ percentageX = 0.5; percentageY = 0.5; }
+
+      // Optional individual block speed as data attr, otherwise global speed
+      var speed = dataSpeed ? dataSpeed : self.options.speed;
+
+      var bases = updatePosition(percentageX, percentageY, speed);
+
+      // ~~Store non-translate3d transforms~~
+      // Store inline styles and extract transforms
+      var style = el.style.cssText;
+      var transform = '';
+
+      // Check if there's an inline styled transform
+      if (style.indexOf('transform') >= 0) {
+        // Get the index of the transform
+        var index = style.indexOf('transform');
+
+        // Trim the style to the transform point and get the following semi-colon index
+        var trimmedStyle = style.slice(index);
+        var delimiter = trimmedStyle.indexOf(';');
+
+        // Remove "transform" string and save the attribute
+        if (delimiter) {
+          transform = " " + trimmedStyle.slice(11, delimiter).replace(/\s/g,'');
+        } else {
+          transform = " " + trimmedStyle.slice(11).replace(/\s/g,'');
+        }
+      }
+
+      return {
+        baseX: bases.x,
+        baseY: bases.y,
+        top: blockTop,
+        left: blockLeft,
+        height: blockHeight,
+        width: blockWidth,
+        speed: speed,
+        style: style,
+        transform: transform,
+        zindex: dataZindex
+      };
+    };
+
+    // set scroll position (posY, posX)
+    // side effect method is not ideal, but okay for now
+    // returns true if the scroll changed, false if nothing happened
+    var setPosition = function() {
+      var oldY = posY;
+      var oldX = posX;
+
+      posY = self.options.wrapper ? self.options.wrapper.scrollTop : (document.documentElement || document.body.parentNode || document.body).scrollTop || window.pageYOffset;
+      posX = self.options.wrapper ? self.options.wrapper.scrollLeft : (document.documentElement || document.body.parentNode || document.body).scrollLeft || window.pageXOffset;
+      // If option relativeToWrapper is true, use relative wrapper value instead.
+      if (self.options.relativeToWrapper) {
+        var scrollPosY = (document.documentElement || document.body.parentNode || document.body).scrollTop || window.pageYOffset;
+        posY = scrollPosY - self.options.wrapper.offsetTop;
+      }
+
+
+      if (oldY != posY && self.options.vertical) {
+        // scroll changed, return true
+        return true;
+      }
+
+      if (oldX != posX && self.options.horizontal) {
+        // scroll changed, return true
+        return true;
+      }
+
+      // scroll did not change
+      return false;
+    };
+
+    // Ahh a pure function, gets new transform value
+    // based on scrollPosition and speed
+    // Allow for decimal pixel values
+    var updatePosition = function(percentageX, percentageY, speed) {
+      var result = {};
+      var valueX = (speed * (100 * (1 - percentageX)));
+      var valueY = (speed * (100 * (1 - percentageY)));
+
+      result.x = self.options.round ? Math.round(valueX) : Math.round(valueX * 100) / 100;
+      result.y = self.options.round ? Math.round(valueY) : Math.round(valueY * 100) / 100;
+
+      return result;
+    };
+
+    // Loop
+    var update = function() {
+      if (setPosition() && pause === false) {
+        animate();
+      }
+
+      // loop again
+      loopId = loop(update);
+    };
+
+    // Transform3d on parallax element
+    var animate = function() {
+      var positions;
+      for (var i = 0; i < self.elems.length; i++){
+        var percentageY = ((posY - blocks[i].top + screenY) / (blocks[i].height + screenY));
+        var percentageX = ((posX - blocks[i].left + screenX) / (blocks[i].width + screenX));
+
+        // Subtracting initialize value, so element stays in same spot as HTML
+        positions = updatePosition(percentageX, percentageY, blocks[i].speed);// - blocks[i].baseX;
+        var positionY = positions.y - blocks[i].baseY;
+        var positionX = positions.x - blocks[i].baseX;
+
+        var zindex = blocks[i].zindex;
+
+        // Move that element
+        // (Set the new translation and append initial inline transforms.)
+        var translate = 'translate3d(' + (self.options.horizontal ? positionX : '0') + 'px,' + (self.options.vertical ? positionY : '0') + 'px,' + zindex + 'px) ' + blocks[i].transform;
+        self.elems[i].style[transformProp] = translate;
+      }
+      self.options.callback(positions);
+    };
+
+    self.destroy = function() {
+      for (var i = 0; i < self.elems.length; i++){
+        self.elems[i].style.cssText = blocks[i].style;
+      }
+
+      // Remove resize event listener if not pause, and pause
+      if (!pause) {
+        window.removeEventListener('resize', init);
+        pause = true;
+      }
+
+      // Clear the animation loop to prevent possible memory leak
+      clearLoop(loopId);
+      loopId = null;
+    };
+
+    // Init
+    init();
+
+    // Start the loop
+    update();
+
+    // Allow to recalculate the initial values whenever we want
+    self.refresh = init;
+
+    return self;
+  };
+  return Rellax;
+}));
+
 
 /***/ }),
 

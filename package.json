@@ -26,6 +26,7 @@
 		"react-dom": "^16.6.3",
 		"react-hamburger-menu": "^1.1.1",
 		"react-instafeed": "^0.4.0",
+		"react-rellax": "^1.0.2",
 		"react-slick": "^0.23.2",
 		"react-stripe-checkout": "^2.6.3",
 		"react-transition-group": "^2.5.0",

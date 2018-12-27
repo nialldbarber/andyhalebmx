@@ -21,7 +21,7 @@ var _jsxFileName = "/Users/niallbarber/htdocs/andyhalebmx/components/Header.js";
 
 
 function _templateObject() {
-  var data = _taggedTemplateLiteral(["\n\tposition: fixed;\n\tbackground: #fff;\n\theight: 50px;\n\tz-index: 999;\n\twidth: 100%;\n\tpadding-top: 5px;\n"]);
+  var data = _taggedTemplateLiteral(["\n\tposition: fixed;\n\tbackground: #fff;\n\theight: 60px;\n\tz-index: 999;\n\twidth: 100%;\n\tpadding-top: 5px;\n\tbox-shadow: ", ";\n"]);
 
   _templateObject = function _templateObject() {
     return data;
@@ -49,44 +49,27 @@ next_router__WEBPACK_IMPORTED_MODULE_2___default.a.onRouteChangeError = function
   NProgress.done();
 };
 
-var NavBar = styled_components__WEBPACK_IMPORTED_MODULE_3__["default"].div(_templateObject());
+var NavBar = styled_components__WEBPACK_IMPORTED_MODULE_3__["default"].div(_templateObject(), function (props) {
+  return props.theme.bs;
+});
 
 var Header = function Header() {
   return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 28
+      lineNumber: 29
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(NavBar, {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 29
-    },
-    __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    __source: {
-      fileName: _jsxFileName,
       lineNumber: 30
     },
     __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
-    href: "/",
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Nav__WEBPACK_IMPORTED_MODULE_4__["default"], {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 31
-    },
-    __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 32
-    },
-    __self: this
-  }))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Nav__WEBPACK_IMPORTED_MODULE_4__["default"], {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 35
     },
     __self: this
   })));
@@ -272,8 +255,18 @@ function _inherits(subClass, superClass) { if (typeof superClass !== "function" 
 
 function _setPrototypeOf(o, p) { _setPrototypeOf = Object.setPrototypeOf || function _setPrototypeOf(o, p) { o.__proto__ = p; return o; }; return _setPrototypeOf(o, p); }
 
+function _templateObject2() {
+  var data = _taggedTemplateLiteral(["\n\twidth: 120px;\n\theight: auto;\n\talign-self: center;\n\tmargin-top: -12px;\n"]);
+
+  _templateObject2 = function _templateObject2() {
+    return data;
+  };
+
+  return data;
+}
+
 function _templateObject() {
-  var data = _taggedTemplateLiteral(["\n\tposition: absolute;\n\t.nav {\n\t\twidth: 100vw;\n\t\tdisplay: flex;\n\t\tjustify-content: space-evenly;\n\t}\n"]);
+  var data = _taggedTemplateLiteral(["\n\tposition: absolute;\n\t.nav {\n\t\twidth: 100vw;\n\t\tdisplay: flex;\n\t\tjustify-content: space-evenly;\n\t\ta {\n\t\t\tpadding: .6rem 0;\n\t\t}\n\t}\n"]);
 
   _templateObject = function _templateObject() {
     return data;
@@ -288,6 +281,7 @@ function _taggedTemplateLiteral(strings, raw) { if (!raw) { raw = strings.slice(
 
 
 var NavContainer = styled_components__WEBPACK_IMPORTED_MODULE_1__["default"].div(_templateObject());
+var HeaderLogo = styled_components__WEBPACK_IMPORTED_MODULE_1__["default"].img(_templateObject2());
 
 var Nav =
 /*#__PURE__*/
@@ -306,14 +300,14 @@ function (_Component) {
       return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(NavContainer, {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 17
+          lineNumber: 27
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "nav",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 18
+          lineNumber: 28
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Link__WEBPACK_IMPORTED_MODULE_2__["default"], {
@@ -321,13 +315,13 @@ function (_Component) {
         href: "/",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 19
+          lineNumber: 29
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 20
+          lineNumber: 30
         },
         __self: this
       }, "Home")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Link__WEBPACK_IMPORTED_MODULE_2__["default"], {
@@ -335,41 +329,56 @@ function (_Component) {
         href: "/about",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 22
+          lineNumber: 32
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 23
+          lineNumber: 33
         },
         __self: this
       }, "About")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Link__WEBPACK_IMPORTED_MODULE_2__["default"], {
         activeClassName: "active",
-        href: "/projects",
+        href: "/",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 25
+          lineNumber: 35
+        },
+        __self: this
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(HeaderLogo, {
+        src: "../static/main-logo8.png",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 36
+        },
+        __self: this
+      })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Link__WEBPACK_IMPORTED_MODULE_2__["default"], {
+        activeClassName: "active",
+        href: "/gallery",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 38
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 26
+          lineNumber: 39
         },
         __self: this
-      }, "Projects")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Link__WEBPACK_IMPORTED_MODULE_2__["default"], {
+      }, "Gallery")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Link__WEBPACK_IMPORTED_MODULE_2__["default"], {
         activeClassName: "active",
         href: "/contact",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 28
+          lineNumber: 41
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 29
+          lineNumber: 42
         },
         __self: this
       }, "Contact"))));
@@ -461,7 +470,7 @@ var theme = {
   orange: '#f89b0e',
   pink: '#f95584',
   maxWidth: '1100px',
-  bs: '0 12px 24px 0 rgba(0, 0, 0, 0.09)',
+  bs: '0 2px 14px 0 rgba(0,0,0,0.06)',
   bsi: 'inset 0 -8px #fefc43, inset 0 -0.2em #fefc43',
   transition: '.25s cubic-bezier(.895, .03, .685, .22)'
 };

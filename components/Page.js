@@ -10,7 +10,7 @@ const theme = {
 	orange: '#f89b0e',
 	pink: '#f95584',
 	maxWidth: '1100px',
-	bs: '0 12px 24px 0 rgba(0, 0, 0, 0.09)',
+	bs: '0 2px 14px 0 rgba(0,0,0,0.06)',
 	bsi: 'inset 0 -8px #fefc43, inset 0 -0.2em #fefc43',
 	transition: '.25s cubic-bezier(.895, .03, .685, .22)'
 };
