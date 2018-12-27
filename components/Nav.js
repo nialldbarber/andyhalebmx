@@ -2,7 +2,14 @@ import React, { Component } from 'react';
 import styled from 'styled-components';
 import Link from './Link';
 
-const NavContainer = styled.div`position: absolute;`;
+const NavContainer = styled.div`
+	position: absolute;
+	.nav {
+		width: 100vw;
+		display: flex;
+		justify-content: space-evenly;
+	}
+`;
 
 export default class Nav extends Component {
 	render() {

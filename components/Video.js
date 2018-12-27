@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 const VideoPlayer = styled.video`
-	position: absolute;
+	position: fixed;
 	top: 50%;
 	left: 50%;
 	transform: translateX(-50%) translateY(-50%);
@@ -13,15 +13,29 @@ const VideoPlayer = styled.video`
 	overflow: hidden;
 `;
 
+const VideoSection = styled.section`
+	position: relative;
+	overflow: hidden;
+	&:after {
+		content: '';
+		position: absolute;
+		background: rgba(0, 0, 0, .4);
+		top: 0;
+		left: 0;
+		bottom: 0;
+		right: 0;
+	}
+`;
+
 const Video = () => {
 	return (
-		<section>
+		<VideoSection>
 			<h1>Andy Hale</h1>
 			<h2>BMX</h2>
 			<VideoPlayer autoPlay muted loop>
 				<source src="../static/cover-video.mp4" type="video/mp4" />
 			</VideoPlayer>
-		</section>
+		</VideoSection>
 	);
 };
 

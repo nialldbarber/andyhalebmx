@@ -15,27 +15,115 @@ __webpack_require__.r(__webpack_exports__);
 var _jsxFileName = "/Users/niallbarber/htdocs/andyhalebmx/components/Bio.js";
 
 
+function _templateObject3() {
+  var data = _taggedTemplateLiteral(["box-shadow: ", ";"]);
+
+  _templateObject3 = function _templateObject3() {
+    return data;
+  };
+
+  return data;
+}
+
+function _templateObject2() {
+  var data = _taggedTemplateLiteral(["\n\twidth: 200px;\n\theight: 200px;\n\tposition: absolute;\n\ttop: 30%;\n\tright: 12%;\n\tmargin: -150px 0 0 50px;\n\t&:before {\n\t\tdisplay: block;\n\t\tcontent: '';\n\t\tposition: absolute;\n\t\twidth: 100%;\n\t\theight: 2px;\n\t\ttransform-origin: center center;\n\t\ttransform: translate(-50%, -50%) rotate(45deg);\n\t\tbackground: ", ";\n\t\tleft: 50%;\n\t\ttop: 50%;\n\t\ttransition: all 1000ms cubic-bezier(0.19, 1, 0.22, 1);\n\t\ttransition-delay: 0.4s;\n\t\topacity: 1;\n\t}\n"]);
+
+  _templateObject2 = function _templateObject2() {
+    return data;
+  };
+
+  return data;
+}
+
+function _templateObject() {
+  var data = _taggedTemplateLiteral(["\n\tmax-width: 750px;\n\tposition: absolute;\n\ttop: 50%;\n\tleft: 50%;\n\ttransform: translate(-50%, -50%);\n\twidth: 100%;\n\tpadding: 0 1.5rem;\n\tp {\n\t\tfont-size: 2.2rem;\n\t}\n"]);
+
+  _templateObject = function _templateObject() {
+    return data;
+  };
+
+  return data;
+}
+
+function _taggedTemplateLiteral(strings, raw) { if (!raw) { raw = strings.slice(0); } return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } })); }
+
+
+var Content = styled_components__WEBPACK_IMPORTED_MODULE_1__["default"].div(_templateObject());
+var Line = styled_components__WEBPACK_IMPORTED_MODULE_1__["default"].div(_templateObject2(), function (props) {
+  return props.theme.black;
+});
+var Underline = styled_components__WEBPACK_IMPORTED_MODULE_1__["default"].span(_templateObject3(), function (props) {
+  return props.theme.bsi;
+});
 
 var Bio = function Bio() {
   return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("section", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 5
+      lineNumber: 44
     },
     __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", {
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(Content, {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 6
+      lineNumber: 45
     },
     __self: this
-  }, "Bio"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 7
+      lineNumber: 46
     },
     __self: this
-  }, "My name is Andy Hale and I am a professional BMX flatland rider. I compete around the UK and also perform at a variety of different types of events. From cruise ships to schools, films to trade events, I have years of experience performing in shows. Whether you would like my skills as part of a stage show, or a school workshop teaching young students some basic BMX techniques, I can do it for you!"));
+  }, "My name is ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(Underline, {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 47
+    },
+    __self: this
+  }, "Andy Hale"), " and I am a professional", ' ', react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(Underline, {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 48
+    },
+    __self: this
+  }, "BMX flatland rider"), ". I compete around the UK and also perform at a variety of different types of events. From ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(Underline, {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 49
+    },
+    __self: this
+  }, "cruise ships"), " to", ' ', react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(Underline, {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 50
+    },
+    __self: this
+  }, "schools"), ", ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(Underline, {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 50
+    },
+    __self: this
+  }, "films"), " to ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(Underline, {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 50
+    },
+    __self: this
+  }, "trade events"), ", I have years of experience performing in shows. Whether you would like my skills as part of a stage show, or a school workshop teaching young students some basic BMX techniques,", ' ', react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(Underline, {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 53
+    },
+    __self: this
+  }, "I can do it for you!"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(Line, {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 56
+    },
+    __self: this
+  }));
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (Bio);
@@ -57,24 +145,201 @@ __webpack_require__.r(__webpack_exports__);
 var _jsxFileName = "/Users/niallbarber/htdocs/andyhalebmx/components/Contact.js";
 
 
+function _templateObject4() {
+  var data = _taggedTemplateLiteral(["\n\tbox-shadow: ", ";\n\ttext-align: center;\n\tmargin: 3rem auto 0;\n"]);
+
+  _templateObject4 = function _templateObject4() {
+    return data;
+  };
+
+  return data;
+}
+
+function _templateObject3() {
+  var data = _taggedTemplateLiteral(["\n\tmax-width: 90%;\n\tmargin: 5rem auto;\n\tdiv {\n\t\twidth: 30%;\n\t}\n\tp {\n\t\tfont-size: 2.5rem;\n\t\tmargin: 0;\n\t\t&:first-child {\n\t\t\tfont-weight: 900;\n\t\t}\n\t\t&:last-child {\n\t\t\tbox-shadow: ", ";\n\t\t\tdisplay: inline;\n\t\t}\n\t}\n\timg {\n\t\twidth: 70%;\n\t\theight: auto;\n\t\talign-self: center;\n\t\tmargin-top: 20rem;\n\t}\n"]);
+
+  _templateObject3 = function _templateObject3() {
+    return data;
+  };
+
+  return data;
+}
+
+function _templateObject2() {
+  var data = _taggedTemplateLiteral(["\n\tmax-width: 750px;\n\twidth: 100%;\n\tpadding: 0 1.5rem;\n\ttext-align: center;\n\tmargin: 15rem auto 20rem;\n\tp {\n\t\tfont-size: 2.5rem;\n\t}\n"]);
+
+  _templateObject2 = function _templateObject2() {
+    return data;
+  };
+
+  return data;
+}
+
+function _templateObject() {
+  var data = _taggedTemplateLiteral(["\n\theight: auto;\n\tpadding: 2rem;\n"]);
+
+  _templateObject = function _templateObject() {
+    return data;
+  };
+
+  return data;
+}
+
+function _taggedTemplateLiteral(strings, raw) { if (!raw) { raw = strings.slice(0); } return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } })); }
+
+
+var ExtendedSection = styled_components__WEBPACK_IMPORTED_MODULE_1__["default"].section(_templateObject());
+var Content = styled_components__WEBPACK_IMPORTED_MODULE_1__["default"].div(_templateObject2());
+var Grid = styled_components__WEBPACK_IMPORTED_MODULE_1__["default"].div(_templateObject3(), function (props) {
+  return props.theme.bsi;
+});
+var Underline = styled_components__WEBPACK_IMPORTED_MODULE_1__["default"].span(_templateObject4(), function (props) {
+  return props.theme.bsi;
+});
 
 var Contact = function Contact() {
-  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("section", {
+  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(ExtendedSection, {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 5
+      lineNumber: 52
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(Content, {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 53
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 6
+      lineNumber: 54
     },
     __self: this
-  }, "contact go here"));
+  }, "Get in touch if you want to work together on a show!")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(Grid, {
+    className: "grid",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 56
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 57
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+    className: "contact-method",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 58
+    },
+    __self: this
+  }, "Email"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+    className: "contact-method",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 59
+    },
+    __self: this
+  }, "andyhalebmx@hotmail.com")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+    src: "../static/shows1.jpg",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 61
+    },
+    __self: this
+  })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(Grid, {
+    className: "grid",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 63
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 64
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+    className: "contact-method",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 65
+    },
+    __self: this
+  }, "Phone"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+    className: "contact-method",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 66
+    },
+    __self: this
+  }, "(+44)7800 771 260")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+    src: "../static/shows2.jpg",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 68
+    },
+    __self: this
+  })));
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (Contact);
+
+/***/ }),
+
+/***/ "./components/Footer.js":
+/*!******************************!*\
+  !*** ./components/Footer.js ***!
+  \******************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! styled-components */ "./node_modules/styled-components/dist/styled-components.browser.esm.js");
+var _jsxFileName = "/Users/niallbarber/htdocs/andyhalebmx/components/Footer.js";
+
+
+function _templateObject() {
+  var data = _taggedTemplateLiteral(["\n\tbackground: ", ";\n\tpadding: 2rem;\n\ttext-align: center;\n\tfont-weight: 900;\n\tp {\n\t\tpadding: 0;\n\t\tmargin: 0;\n\t}\n"]);
+
+  _templateObject = function _templateObject() {
+    return data;
+  };
+
+  return data;
+}
+
+function _taggedTemplateLiteral(strings, raw) { if (!raw) { raw = strings.slice(0); } return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } })); }
+
+
+var FooterWrap = styled_components__WEBPACK_IMPORTED_MODULE_1__["default"].div(_templateObject(), function (props) {
+  return props.theme.offWhite;
+});
+
+var Footer = function Footer() {
+  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(FooterWrap, {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 16
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 17
+    },
+    __self: this
+  }, "\xA9 2018 Andrew Hale"));
+};
+
+/* harmony default export */ __webpack_exports__["default"] = (Footer);
 
 /***/ }),
 
@@ -133,61 +398,70 @@ function (_React$Component) {
     key: "render",
     value: function render() {
       var settings = {
-        dots: true,
+        dots: false,
+        fade: true,
+        autoplay: true,
+        autoplaySpeed: 4000,
+        speed: 800,
         infinite: true,
-        speed: 500,
         slidesToShow: 1,
         slidesToScroll: 1
       };
-      return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_slick__WEBPACK_IMPORTED_MODULE_2___default.a, _extends({}, settings, {
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 14
-        },
-        __self: this
-      }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
-        src: "../static/gallery/slick1.JPG",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 15
-        },
-        __self: this
-      }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
-        src: "../static/gallery/slick2.JPG",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 16
-        },
-        __self: this
-      }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
-        src: "../static/gallery/slick3.JPG",
+      return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("section", {
         __source: {
           fileName: _jsxFileName,
           lineNumber: 17
         },
         __self: this
-      }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
-        src: "../static/gallery/slick4.JPG",
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_slick__WEBPACK_IMPORTED_MODULE_2___default.a, _extends({}, settings, {
         __source: {
           fileName: _jsxFileName,
           lineNumber: 18
         },
         __self: this
       }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
-        src: "../static/gallery/slick5.JPG",
+        src: "../static/gallery/slick1.JPG",
         __source: {
           fileName: _jsxFileName,
           lineNumber: 19
         },
         __self: this
       }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
-        src: "../static/gallery/slick6.JPG",
+        src: "../static/gallery/slick2.JPG",
         __source: {
           fileName: _jsxFileName,
           lineNumber: 20
         },
         __self: this
-      }));
+      }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+        src: "../static/gallery/slick3.JPG",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 21
+        },
+        __self: this
+      }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+        src: "../static/gallery/slick4.JPG",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 22
+        },
+        __self: this
+      }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+        src: "../static/gallery/slick5.JPG",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 23
+        },
+        __self: this
+      }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+        src: "../static/gallery/slick6.JPG",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 24
+        },
+        __self: this
+      })));
     }
   }]);
 
@@ -213,21 +487,97 @@ __webpack_require__.r(__webpack_exports__);
 var _jsxFileName = "/Users/niallbarber/htdocs/andyhalebmx/components/Shows.js";
 
 
+function _templateObject3() {
+  var data = _taggedTemplateLiteral(["box-shadow: ", ";"]);
+
+  _templateObject3 = function _templateObject3() {
+    return data;
+  };
+
+  return data;
+}
+
+function _templateObject2() {
+  var data = _taggedTemplateLiteral(["\n\twidth: 200px;\n\theight: 200px;\n\tposition: absolute;\n\tbottom: 10%;\n\tleft: 10%;\n\tmargin: -150px 0 0 50px;\n\t&:before {\n\t\tdisplay: block;\n\t\tcontent: '';\n\t\tposition: absolute;\n\t\twidth: 100%;\n\t\theight: 2px;\n\t\ttransform-origin: center center;\n\t\ttransform: translate(-50%, -50%) rotate(220deg);\n\t\tbackground: ", ";\n\t\tleft: 50%;\n\t\ttop: 50%;\n\t\ttransition: all 1000ms cubic-bezier(0.19, 1, 0.22, 1);\n\t\ttransition-delay: 0.4s;\n\t\topacity: 1;\n\t}\n"]);
+
+  _templateObject2 = function _templateObject2() {
+    return data;
+  };
+
+  return data;
+}
+
+function _templateObject() {
+  var data = _taggedTemplateLiteral(["\n\tmax-width: 750px;\n\tposition: absolute;\n\ttop: 50%;\n\tleft: 50%;\n\ttransform: translate(-50%, -50%);\n\twidth: 100%;\n\tpadding: 0 1.5rem;\n\tp {\n\t\tfont-size: 2.2rem;\n\t}\n"]);
+
+  _templateObject = function _templateObject() {
+    return data;
+  };
+
+  return data;
+}
+
+function _taggedTemplateLiteral(strings, raw) { if (!raw) { raw = strings.slice(0); } return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } })); }
+
+
+var Content = styled_components__WEBPACK_IMPORTED_MODULE_1__["default"].div(_templateObject());
+var Line = styled_components__WEBPACK_IMPORTED_MODULE_1__["default"].div(_templateObject2(), function (props) {
+  return props.theme.black;
+});
+var Underline = styled_components__WEBPACK_IMPORTED_MODULE_1__["default"].span(_templateObject3(), function (props) {
+  return props.theme.bsi;
+});
 
 var Shows = function Shows() {
   return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("section", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 5
+      lineNumber: 44
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(Content, {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 45
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 6
+      lineNumber: 46
     },
     __self: this
-  }, "shows go here"));
+  }, "My shows can add a great ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(Underline, {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 47
+    },
+    __self: this
+  }, "showpiece"), " to your event. Kids love a BMX show whether it is at their school, in term time or as part of a ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(Underline, {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 48
+    },
+    __self: this
+  }, "local festival"), ". They can be tailored for your ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(Underline, {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 49
+    },
+    __self: this
+  }, "specific needs"), " such as including workshops, or bringing along an extra rider for ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(Underline, {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 50
+    },
+    __self: this
+  }, "synchronised spinning tricks!"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(Line, {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 53
+    },
+    __self: this
+  }));
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (Shows);
@@ -249,8 +599,18 @@ __webpack_require__.r(__webpack_exports__);
 var _jsxFileName = "/Users/niallbarber/htdocs/andyhalebmx/components/Video.js";
 
 
+function _templateObject2() {
+  var data = _taggedTemplateLiteral(["\n\tposition: relative;\n\toverflow: hidden;\n\t&:after {\n\t\tcontent: '';\n\t\tposition: absolute;\n\t\tbackground: rgba(0, 0, 0, .4);\n\t\ttop: 0;\n\t\tleft: 0;\n\t\tbottom: 0;\n\t\tright: 0;\n\t}\n"]);
+
+  _templateObject2 = function _templateObject2() {
+    return data;
+  };
+
+  return data;
+}
+
 function _templateObject() {
-  var data = _taggedTemplateLiteral(["\n\tposition: absolute;\n\ttop: 50%;\n\tleft: 50%;\n\ttransform: translateX(-50%) translateY(-50%);\n\tmin-width: 100%;\n\tmin-height: calc(100vh - 13rem);\n\twidth: auto;\n\theight: auto;\n\tz-index: -1000;\n\toverflow: hidden;\n"]);
+  var data = _taggedTemplateLiteral(["\n\tposition: fixed;\n\ttop: 50%;\n\tleft: 50%;\n\ttransform: translateX(-50%) translateY(-50%);\n\tmin-width: 100%;\n\tmin-height: calc(100vh - 13rem);\n\twidth: auto;\n\theight: auto;\n\tz-index: -1000;\n\toverflow: hidden;\n"]);
 
   _templateObject = function _templateObject() {
     return data;
@@ -263,24 +623,25 @@ function _taggedTemplateLiteral(strings, raw) { if (!raw) { raw = strings.slice(
 
 
 var VideoPlayer = styled_components__WEBPACK_IMPORTED_MODULE_1__["default"].video(_templateObject());
+var VideoSection = styled_components__WEBPACK_IMPORTED_MODULE_1__["default"].section(_templateObject2());
 
 var Video = function Video() {
-  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("section", {
+  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(VideoSection, {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 18
+      lineNumber: 32
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 19
+      lineNumber: 33
     },
     __self: this
   }, "Andy Hale"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 20
+      lineNumber: 34
     },
     __self: this
   }, "BMX"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(VideoPlayer, {
@@ -289,7 +650,7 @@ var Video = function Video() {
     loop: true,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 21
+      lineNumber: 35
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("source", {
@@ -297,7 +658,7 @@ var Video = function Video() {
     type: "video/mp4",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 22
+      lineNumber: 36
     },
     __self: this
   })));
@@ -10002,7 +10363,9 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _components_Gallery__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../components/Gallery */ "./components/Gallery.js");
 /* harmony import */ var _components_Shows__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../components/Shows */ "./components/Shows.js");
 /* harmony import */ var _components_Contact__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../components/Contact */ "./components/Contact.js");
+/* harmony import */ var _components_Footer__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../components/Footer */ "./components/Footer.js");
 var _jsxFileName = "/Users/niallbarber/htdocs/andyhalebmx/pages/index.js";
+
 
 
 
@@ -10014,37 +10377,43 @@ var Index = function Index() {
   return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 9
+      lineNumber: 10
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_Video__WEBPACK_IMPORTED_MODULE_1__["default"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 10
+      lineNumber: 11
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_Bio__WEBPACK_IMPORTED_MODULE_2__["default"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 11
+      lineNumber: 12
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_Gallery__WEBPACK_IMPORTED_MODULE_3__["default"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 12
+      lineNumber: 13
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_Shows__WEBPACK_IMPORTED_MODULE_4__["default"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 13
+      lineNumber: 14
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_Contact__WEBPACK_IMPORTED_MODULE_5__["default"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 14
+      lineNumber: 15
+    },
+    __self: this
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_Footer__WEBPACK_IMPORTED_MODULE_6__["default"], {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 16
     },
     __self: this
   }));
