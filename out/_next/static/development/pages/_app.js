@@ -214,7 +214,7 @@ var Meta = function Meta() {
       lineNumber: 20
     },
     __self: this
-  }, "Andy Hale | BMX Flatlander"));
+  }, "Andy Hale | BMX Flatland Rider"));
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (Meta);
