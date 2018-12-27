@@ -40,7 +40,8 @@
 		"dev": "next",
 		"build": "next build",
 		"export": "npm run build && next export",
-		"start": "next start"
+		"start": "next start",
+		"heroku-postbuild": "heroku-nextjs-build"
 	},
 	"author": "",
 	"license": "ISC"
