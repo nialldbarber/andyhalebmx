@@ -1,3 +1,4 @@
+import AnchorLink from 'react-anchor-link-smooth-scroll';
 import styled from 'styled-components';
 
 const VideoPlayer = styled.video`
@@ -16,6 +17,25 @@ const VideoPlayer = styled.video`
 const VideoSection = styled.section`
 	position: relative;
 	overflow: hidden;
+	&:after {
+		content: '';
+		position: absolute;
+		top: 0;
+		left: 0;
+		bottom: 0;
+		right: 0;
+		background-image: linear-gradient(transparent, rgba(0, 0, 0, 0.4));
+		z-index: -1;
+	}
+`;
+
+const DownArrow = styled.img`
+	width: 50px;
+	height: 50px;
+	position: absolute;
+	left: 50%;
+	bottom: 3rem;
+	transform: translateX(-50%);
 `;
 
 const Video = () => {
@@ -24,6 +44,9 @@ const Video = () => {
 			<VideoPlayer autoPlay muted loop>
 				<source src="../static/cover-video2.mp4" type="video/mp4" />
 			</VideoPlayer>
+			<AnchorLink href="#about">
+				<DownArrow src="../static/down-arrow.svg" alt="More Options" />
+			</AnchorLink>
 		</VideoSection>
 	);
 };

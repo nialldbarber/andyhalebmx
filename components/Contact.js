@@ -10,7 +10,7 @@ const Content = styled.div`
 	width: 100%;
 	padding: 0 1.5rem;
 	text-align: center;
-	margin: 15rem auto 20rem;
+	margin: 5rem auto 23rem;
 	p {
 		font-size: 2.5rem;
 	}
@@ -38,6 +38,7 @@ const Grid = styled.div`
 		height: auto;
 		align-self: center;
 		margin-top: 20rem;
+		box-shadow: ${props => props.theme.bs};
 	}
 `;
 
