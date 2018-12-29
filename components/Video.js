@@ -20,9 +20,9 @@ const VideoSection = styled.section`
 
 const Video = () => {
 	return (
-		<VideoSection>
+		<VideoSection id="home">
 			<VideoPlayer autoPlay muted loop>
-				<source src="../static/cover-video.mp4" type="video/mp4" />
+				<source src="../static/cover-video2.mp4" type="video/mp4" />
 			</VideoPlayer>
 		</VideoSection>
 	);

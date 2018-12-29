@@ -29,7 +29,7 @@ const Grid = styled.div`
 			font-weight: 900;
 		}
 		&:last-child {
-			box-shadow: ${(props) => props.theme.bsi};
+			box-shadow: ${props => props.theme.bsi};
 			display: inline;
 		}
 	}
@@ -42,14 +42,14 @@ const Grid = styled.div`
 `;
 
 const Underline = styled.span`
-	box-shadow: ${(props) => props.theme.bsi};
+	box-shadow: ${props => props.theme.bsi};
 	text-align: center;
 	margin: 3rem auto 0;
 `;
 
 const Contact = () => {
 	return (
-		<ExtendedSection>
+		<ExtendedSection id="contact">
 			<Content>
 				<p>Get in touch if you want to work together on a show!</p>
 			</Content>

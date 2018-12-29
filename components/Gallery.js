@@ -14,7 +14,7 @@ class Gallery extends React.Component {
 			slidesToScroll: 1
 		};
 		return (
-			<section>
+			<section id="gallery">
 				<Slider {...settings}>
 					<img src="../static/gallery/slick1.JPG" />
 					<img src="../static/gallery/slick2.JPG" />

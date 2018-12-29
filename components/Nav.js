@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import styled from 'styled-components';
 import Link from './Link';
+import AnchorLink from 'react-anchor-link-smooth-scroll';
 
 const NavContainer = styled.div`
 	position: absolute;
@@ -9,7 +10,7 @@ const NavContainer = styled.div`
 		display: flex;
 		justify-content: space-evenly;
 		a {
-			padding: .6rem 0;
+			padding: 0.6rem 0;
 		}
 	}
 `;
@@ -26,21 +27,13 @@ export default class Nav extends Component {
 		return (
 			<NavContainer>
 				<div className="nav">
-					<Link activeClassName="active" href="/">
-						<a>Home</a>
-					</Link>
-					<Link activeClassName="active" href="/about">
-						<a>About</a>
-					</Link>
-					<Link activeClassName="active" href="/">
+					<AnchorLink href="#home">Home</AnchorLink>
+					<AnchorLink href="#about">About</AnchorLink>
+					<AnchorLink href="#home">
 						<HeaderLogo src="../static/main-logo8.png" />
-					</Link>
-					<Link activeClassName="active" href="/gallery">
-						<a>Gallery</a>
-					</Link>
-					<Link activeClassName="active" href="/contact">
-						<a>Contact</a>
-					</Link>
+					</AnchorLink>
+					<AnchorLink href="#gallery">Gallery</AnchorLink>
+					<AnchorLink href="#contact">Contact</AnchorLink>
 				</div>
 			</NavContainer>
 		);

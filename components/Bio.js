@@ -1,3 +1,4 @@
+import AnchorLink from 'react-anchor-link-smooth-scroll';
 import styled from 'styled-components';
 import Parallax from 'react-rellax';
 import Line from './styles/Line';
@@ -24,7 +25,7 @@ const LineWrap = styled.div`
 
 const Bio = () => {
 	return (
-		<section>
+		<section id="about">
 			<Content>
 				<p>
 					My name is <Underline>Andy Hale</Underline> and I am a professional{' '}
