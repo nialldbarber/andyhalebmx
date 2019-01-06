@@ -38,7 +38,7 @@ const Bio = () => {
 				</p>
 			</Content>
 			<LineWrap>
-				<Parallax speed={1.3}>
+				<Parallax className="parallax" speed={1.3}>
 					<Line />
 				</Parallax>
 			</LineWrap>

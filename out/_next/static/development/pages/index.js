@@ -120,6 +120,7 @@ var Bio = function Bio() {
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_rellax__WEBPACK_IMPORTED_MODULE_3___default.a, {
+    className: "parallax",
     speed: 1.3,
     __source: {
       fileName: _jsxFileName,
@@ -658,6 +659,7 @@ var Shows = function Shows() {
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_rellax__WEBPACK_IMPORTED_MODULE_2___default.a, {
+    className: "parallax",
     speed: 1.3,
     __source: {
       fileName: _jsxFileName,

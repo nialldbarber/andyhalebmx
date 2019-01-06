@@ -15,7 +15,7 @@ const theme = {
 	transition: '.25s cubic-bezier(.895, .03, .685, .22)'
 };
 
-const StyledPage = styled.div`color: ${(props) => props.theme.black};`;
+const StyledPage = styled.div`color: ${props => props.theme.black};`;
 
 const Inner = styled.div`
 	margin: 0 auto;
@@ -75,6 +75,15 @@ injectGlobal`
 	.grid {
 		display: flex;
 		margin-top: 6rem;
+	}
+	#gallery {
+		height: auto;
+		min-height: auto;
+	}
+	@media (max-width: 1050px) {
+		.parallax {
+			display: none;
+		}
 	}
 `;
 

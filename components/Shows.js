@@ -27,7 +27,7 @@ const Line = styled.div`
 		height: 2px;
 		transform-origin: center center;
 		transform: translate(-50%, -50%) rotate(220deg);
-		background: ${(props) => props.theme.black};
+		background: ${props => props.theme.black};
 		left: 50%;
 		top: 50%;
 		transition: all 1000ms cubic-bezier(0.19, 1, 0.22, 1);
@@ -54,7 +54,7 @@ const Shows = () => {
 				</p>
 			</Content>
 			<LineWrap>
-				<Parallax speed={1.3}>
+				<Parallax className="parallax" speed={1.3}>
 					<Line />
 				</Parallax>
 			</LineWrap>
